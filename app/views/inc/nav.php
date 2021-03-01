@@ -9,8 +9,8 @@
         <li class="more-button"><a>MORE <i class="fal fa-chevron-down"></i></a>
 
             <div class="more-menu">
-                <div class="col col-1">
-                    <h1>WIDGET HEADER</h1>
+                <div class="col">
+                    <h1 class="title">WIDGET HEADER</h1>
                     <ul>
                         <li><a>Awesome Features</a></li>
                         <li><a>Clean Interface</a></li>
@@ -19,8 +19,8 @@
                         <li><a>Pixel Perfect Graphics</a></li>
                     </ul>
                 </div>
-                <div class="col col-2">
-                    <h1>WIDGET HEADER</h1>
+                <div class="col">
+                    <h1 class="title">WIDGET HEADER</h1>
                     <ul>
                         <li><a>Awesome Features</a></li>
                         <li><a>Clean Interface</a></li>
@@ -29,9 +29,8 @@
                         <li><a>Pixel Perfect Graphics</a></li>
                     </ul>
                 </div>
-
-                <div class="col col-3">
-                    <h1>WIDGET HEADER</h1>
+                <div class="col">
+                    <h1 class="title">WIDGET HEADER</h1>
                     <ul>
                         <li><a>Awesome Features</a></li>
                         <li><a>Clean Interface</a></li>
@@ -40,9 +39,8 @@
                         <li><a>Pixel Perfect Graphics</a></li>
                     </ul>
                 </div>
-
-                <div class="col col-4">
-                    <h1>WIDGET HEADER</h1>
+                <div class="col">
+                    <h1 class="title">WIDGET HEADER</h1>
                     <ul>
                         <li><a>Awesome Features</a></li>
                         <li><a>Clean Interface</a></li>

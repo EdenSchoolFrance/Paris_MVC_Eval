@@ -77,7 +77,8 @@ header .log-lang .log-lang-col {
 
 header .log-lang .log-lang-col .log {
 	color: #A5A5A5;
-	font-size: 20px;
+	font-size: 16px;
+	word-spacing: 1rem;
 	padding: 0 10px;
 	border-bottom: 2px solid;
 	margin: 0;
@@ -144,16 +145,17 @@ nav .categories {
 	justify-content: space-evenly;
 	border-top: 2px solid;
 	border-bottom: 4px solid;
-	padding: 1.5em 0;
+	padding: 1.5em 25%;
 }
 
 nav .categories li {
 	list-style: none;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 nav .more-menu {
-	display: flex;
+	display: none;
 	left: 0;
 	top: 75px;
 	width: 100%;
@@ -166,4 +168,141 @@ nav .more-menu .col {
 	width: 25%;
 	border: 1px solid #cccccc;
 	padding: 1em;
+	line-height : 30px;
+}
+
+nav .more-menu .col .title {
+	font-weight: bolder;
+	font-size: 16px;
+	padding-left: 2em;
+}
+
+/*
+	index.php
+ */
+
+main .first-posts {
+	height: 60vh;
+	margin-top: 2em;
+}
+
+main .first-posts .big-post {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+main .first-posts .big-post .big-post-content {
+	position: absolute;
+	bottom: 0;
+	margin: 0 10%;
+}
+
+main .first-posts .big-post .big-post-content .big-post-recommendation {
+	background-color: #F72300;
+	display: inline-block;
+	color: #fff;
+	padding: 5px 10px;
+	margin-left: 1em;
+}
+
+main .first-posts .big-post .big-post-content .big-post-text {
+	background-color: #fff;
+	padding: 1em 2em;
+}
+
+main .first-posts .big-post .big-post-content .big-post-extras {
+	display: flex;
+	background-color: #fff;
+	padding: 0 1em;
+}
+
+main .first-posts .big-post .big-post-content .big-post-extras p {
+	color: #A5A5A5;
+	margin-left: 1em;
+}
+
+main .first-posts .big-post .big-post-content .big-post-extras p i {
+	padding: 5px;
+	background-color: #A5A5A5;
+	color: #fff
+}
+
+main .first-posts .big-post .big-post-content .big-post-extras p span {
+	font-weight: bold;
+	color: #000;
+}
+
+main .first-posts .medium-post {
+	height: 48.8%;
+	background-position: center;
+	background-size: cover;
+}
+
+main .first-posts .medium-post:nth-child(1) {
+	margin-bottom: 1em;
+}
+
+main .first-posts .medium-post .medium-post-content {
+	position: absolute;
+	bottom: 0;
+	margin: 0 10%;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-recommendation {
+	display: inline-block;
+	color: #fff;
+	padding: 5px 10px;
+	margin-left: 1em;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-recommendation-1 {
+	background-color: #5F35AC;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-recommendation-2 {
+	background-color: #2196F3;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-text {
+	background-color: #fff;
+	padding: 1em;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-extras {
+	display: flex;
+	background-color: #fff;
+	padding: 0 1em;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-extras p {
+	color: #A5A5A5;
+	margin-left: 1em;
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-extras p i {
+	padding: 5px;
+	background-color: #A5A5A5;
+	color: #fff
+}
+
+main .first-posts .medium-post .medium-post-content .medium-post-extras p span {
+	font-weight: bold;
+	color: #000;
+}
+
+@media (max-width: 1611px) {
+	main .first-posts .medium-post .medium-post-content .medium-post-text h1 {
+		font-size: 18px;
+	}
+
+	main .first-posts .medium-post .medium-post-content .medium-post-text p {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	main .first-posts .medium-post {
+		margin: 10% -1em;
+	}
 }
